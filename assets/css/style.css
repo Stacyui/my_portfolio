@@ -635,6 +635,10 @@ a.btn-flat:hover:after {
   width: 70%;
 }
 
+.work-comingsoon {
+  width: 70%;
+}
+
 .work-item-3 {
   display: flex;
   justify-content: flex-start;
