@@ -19,7 +19,7 @@
 .container button,
 .container a,
 .container input {
-  font-family: semplicitapro, sans-serif;
+  font-family: semplicitapro, 'Noto Sans JP', sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -416,8 +416,9 @@ a.btn-flat:hover:after {
 }
 
 .about-main-page-left {
-  background-color: rgb(255, 234, 242);
-  height: 300px;
+  background-color: #f1ebdf;
+  padding: 30px;
+  height: 250px;
 }
 
 .about-main-page-right {
@@ -576,7 +577,7 @@ a.btn-flat:hover:after {
 
 #javascript {
   position: absolute;
-  width: 20%;
+  width: 10%;
   height: 10px;
   background-color: rgb(255, 123, 0);
   border-radius: 10px;
@@ -608,7 +609,7 @@ a.btn-flat:hover:after {
 
 #kr {
   position: absolute;
-  width: 60%;
+  width: 50%;
   height: 10px;
   background-color: rgb(255, 123, 0);
   border-radius: 10px;
@@ -632,6 +633,10 @@ a.btn-flat:hover:after {
 
 .work-item-2 a,
 .work-item-2 img {
+  width: 70%;
+}
+
+.work-comingsoon {
   width: 70%;
 }
 
